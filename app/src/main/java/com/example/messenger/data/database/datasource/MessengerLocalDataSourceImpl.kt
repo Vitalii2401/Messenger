@@ -1,4 +1,6 @@
 package com.example.messenger.data.database.datasource
 
-class MessengerLocalDataSourceImpl {
+import com.example.messenger.data.datasource.MessengerDataSource
+
+class MessengerLocalDataSourceImpl : MessengerDataSource.Local {
 }
